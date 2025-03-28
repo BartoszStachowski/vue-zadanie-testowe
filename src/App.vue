@@ -1,1 +1,6 @@
-<template>app</template>
+<template>
+    <UsersList />
+</template>
+<script setup lang="ts">
+import UsersList from './components/UsersList.vue';
+</script>
